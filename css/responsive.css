@@ -1,0 +1,477 @@
+/* 2X EXTRA LARGE DEVICES - xxl (Extra Large Desktops, 1400px and up) */
+@media (min-width: 1400px) {
+  #deals .deals-image img {
+    height: 870px;
+  }
+}
+
+/* EXTRA LARGE DEVICES - xl (Large Desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+}
+
+/* LARGE DEVICES - lg (Desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .title {
+    font-size: 40px;
+  }
+  #deals .deals-image img {
+    height: 940px;
+  }
+  .card-text {
+    font-size: 14px;
+  }
+  #feedback {
+    padding-top: 80px;
+  }
+  #feedback-carousel .carousel-control-prev,
+  #feedback-carousel .carousel-control-next {
+    display: none;
+  }
+  #faq-section {
+    padding: 100px 0;
+  }
+  #company {
+    width: 80%;
+    margin: 0 auto;
+  }
+  #company .title {
+    font-size: 35px;
+  }
+  footer {
+    padding: 60px 0;
+  }
+  footer .text {
+    font-size: 14px;
+  }
+}
+
+/* MEDIUM DEVICES - md (Tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) {
+  .nav-item {
+    padding: 0;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .navbar .button .reg-btn {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  #banner-carousel .carousel-inner .carousel-item h1 {
+    font-size: 50px;
+  }
+  #banner-carousel .carousel-inner .carousel-item p {
+    font-size: 16px;
+    padding: 20px 100px 30px;
+  }
+  .banner-btn,
+  .courses-btn,
+  .deals-btn,
+  .newsletter-btn,
+  .success-btn {
+    padding: 10px 20px;
+    font-size: 18px;
+  }
+  .carousel-control-prev {
+    left: -10px;
+  }
+  .carousel-control-next {
+    right: -10px;
+  }
+  #courses {
+    padding: 60px 0 30px;
+  }
+  .course-item .course-details h2 {
+    font-size: 25px;
+  }
+  .course-item .course-details p {
+    font-size: 16px;
+    padding: 5px 0;
+  }
+  .course-item .course-details .price {
+    font-size: 18px;
+  }
+  .title {
+    font-size: 30px;
+  }
+  .sub-title {
+    padding: 10px 5% 30px;
+  }
+  .courses-btn {
+    font-size: 14px;
+    margin-top: -10px;
+  }
+  #courses .button {
+    padding-bottom: 40px;
+  }
+  #deals .deals-image {
+    text-align: center;
+  }
+  #deals .deals-image img {
+    height: 585px;
+  }
+  .deals-content {
+    padding: 45px 40px;
+  }
+  .deals-content h2 {
+    font-size: 28px;
+    padding-top: 0;
+  }
+  .deals-content p {
+    padding: 0 0 20px;
+    font-size: 14px;
+  }
+  .deals-number p {
+    margin-bottom: 0;
+  }
+  .deals-content .button {
+    margin: 15px 0 30px;
+    margin: 0;
+  }
+  .deals-btn {
+    font-size: 16px;
+  }
+  #newsletter {
+    padding: 40px 0;
+  }
+  #newsletter h2 {
+    font-size: 30px;
+    text-align: center;
+  }
+  #newsletter p {
+    font-size: 16px;
+    text-align: center;
+  }
+  .newsletter-btn {
+    font-size: 18px;
+    margin-top: 20px;
+  }
+  .newsletter-bg {
+    padding: 60px 100px;
+  }
+  #success .button {
+    margin-top: 35px;
+  }
+  .success-btn {
+    font-size: 16px;
+  }
+  #feedback {
+    padding-top: 60px;
+  }
+  .carousel-item .item {
+    padding-bottom: 20px;
+  }
+  .carousel-item .item img {
+    width: 100%;
+  }
+  #feedback-carousel .carousel-control-prev,
+  #feedback-carousel .carousel-control-next {
+    display: none;
+  }
+  #faq-section {
+    padding: 60px 0;
+  }
+  #faq-section #faq {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .accordion-body {
+    font-size: 16px;
+    text-align: left;
+  }
+  .accordion-button {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  #company {
+    padding-bottom: 80px;
+    width: 80%;
+    margin: 0 auto;
+  }
+  footer {
+    padding: 40px 0;
+  }
+  footer .text {
+    padding: 10px 0;
+    font-size: 15px;
+  }
+}
+
+/* SMALL DEVICES - sm (Landscape Phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .banner-height {
+    min-height: 100vh;
+  }
+  .nav-item {
+    padding: 0;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .navbar .button .reg-btn {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  #banner-carousel .carousel-inner .carousel-item h1 {
+    font-size: 35px;
+  }
+  #banner-carousel .carousel-inner .carousel-item p {
+    font-size: 16px;
+    padding: 20px 5% 30px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  .banner-btn,
+  .courses-btn,
+  .deals-btn,
+  .newsletter-btn,
+  .success-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  #courses {
+    padding-top: 60px;
+  }
+  .course-item .course-details {
+    padding-left: 15px;
+  }
+  .title {
+    font-size: 30px;
+    text-align: center;
+  }
+  .course-item .course-details h2 {
+    font-size: 20px;
+  }
+  .course-item .course-details p {
+    font-size: 14px;
+    padding: 10px 35px;
+  }
+  #courses .button {
+    padding: 40px 0 70px;
+  }
+  .deals-content {
+    text-align: center;
+  }
+  .deals-content h2 {
+    font-size: 30px;
+  }
+  .deals-content {
+    padding: 30px 15px 15px 40px;
+  }
+  .deals-content p {
+    font-size: 15px;
+  }
+  .deals-content .button {
+    padding-bottom: 30px;
+  }
+  #newsletter {
+    padding: 70px 0;
+  }
+  .newsletter-bg {
+    padding: 80px 40px;
+    text-align: center;
+  }
+  #newsletter h2 {
+    font-size: 40px;
+  }
+  #newsletter p {
+    padding: 20px 10px;
+  }
+  .sub-title {
+    padding: 10px 30px 50px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .card .card-body {
+    text-align: center;
+  }
+  #success .card {
+    margin-bottom: 40px;
+  }
+  #success .button {
+    margin: 0;
+  }
+  #feedback {
+    padding-top: 70px;
+  }
+  #feedback-carousel .carousel-control-prev,
+  #feedback-carousel .carousel-control-next {
+    display: none;
+  }
+  .carousel-inner .item {
+    margin-bottom: 30px;
+  }
+  #faq-section {
+    padding: 45px 0;
+  }
+  .accordion-button {
+    font-size: 12px;
+  }
+  .accordion-body {
+    font-size: 9px;
+    text-align: justify;
+  }
+  #company .title {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  #company {
+    padding-bottom: 60px;
+    width: 85%;
+    margin: 0 auto;
+  }
+  footer {
+    padding: 50px 0;
+  }
+  footer p {
+    font-size: 18px;
+  }
+}
+
+/* EXTRA SMALL DEVICES (Portrait Phones, 320px and up) */
+@media (min-width: 320px) and (max-width: 575.98px) {
+  .nav-item {
+    padding: 0;
+  }
+  .nav-link {
+    font-size: 16px;
+  }
+  .navbar .button .reg-btn {
+    margin-top: 10px;
+    font-size: 16px;
+  }
+  .banner-height {
+    min-height: 45vh;
+  }
+  #banner-carousel .carousel-inner .carousel-item h1 {
+    font-size: 35px;
+  }
+  #banner-carousel .carousel-inner .carousel-item p {
+    font-size: 16px;
+    padding: 20px 5% 30px;
+  }
+  .carousel-control-next,
+  .carousel-control-prev {
+    display: none;
+  }
+  .banner-btn,
+  .courses-btn,
+  .deals-btn,
+  .newsletter-btn,
+  .success-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+  }
+  #courses {
+    padding-top: 60px;
+  }
+  .course-item .course-details {
+    padding-left: 15px;
+  }
+  .title {
+    font-size: 20px;
+    padding: 0 0 8px;
+    text-align: center;
+  }
+  .course-item .course-details h2 {
+    font-size: 20px;
+  }
+  .course-item .course-details p {
+    font-size: 14px;
+    padding: 5px 0;
+  }
+  #courses .button {
+    padding: 40px 0 70px;
+  }
+  .deals-content {
+    padding: 30px 15px 15px 40px;
+  }
+  .deals-content h2 {
+    font-size: 30px;
+  }
+  #deals .deals-image img {
+    height: 100%;
+  }
+  .deals-content p {
+    font-size: 15px;
+  }
+  .deals-content .button {
+    padding-bottom: 30px;
+  }
+  #newsletter {
+    padding: 70px 0;
+  }
+  .newsletter-bg {
+    padding: 30px 15px;
+    text-align: center;
+  }
+  #newsletter h2 {
+    font-size: 18px;
+  }
+  #newsletter p {
+    padding: 20px 10px;
+    font-size: 14px;
+  }
+  .sub-title {
+    padding: 10px 40px 32px;
+    text-align: center;
+    font-size: 15px;
+  }
+  .card .card-body {
+    text-align: center;
+  }
+  #success .card {
+    margin-bottom: 16px;
+  }
+  #success .button {
+    margin: 0;
+    margin-top: 24px;
+  }
+  #feedback {
+    padding-top: 70px;
+  }
+  #feedback-carousel .carousel-control-prev,
+  #feedback-carousel .carousel-control-next {
+    display: none;
+  }
+  .carousel-inner .item {
+    margin-bottom: 16px;
+  }
+  #faq-section {
+    padding: 45px 0;
+  }
+  .accordion-body {
+    font-size: 16px;
+    text-align: left;
+  }
+  .accordion-item {
+    width: 80%;
+    margin: 0 auto;
+  }
+  .accordion-button {
+    font-size: 14px;
+    font-weight: 600;
+  }
+  #company .title {
+    font-size: 16px;
+    padding-bottom: 15px;
+  }
+  #company {
+    padding-bottom: 60px;
+    width: 85%;
+    margin: 0 auto;
+  }
+  footer {
+    padding: 50px 0;
+  }
+  footer p {
+    font-size: 14px;
+    padding: 0 15%;
+  }
+  footer .text {
+    font-size: 14px;
+  }
+}
